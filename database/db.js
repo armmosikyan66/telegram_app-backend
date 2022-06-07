@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect(`mongodb+srv://Arman:Armmosikyan2005@cluster0.js0ps.mongodb.net/?retryWrites=true&w=majority`, () => {
+mongoose.connect(`MONGO_URL`, () => {
     console.log("database has been connected");
 });
 
